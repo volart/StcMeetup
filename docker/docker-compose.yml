@@ -1,0 +1,17 @@
+#
+# External components for running Portico locally
+#
+version: '3.1'
+
+services:
+
+  mq:
+    image: webcenter/activemq:latest
+    ports:
+      - 61617:61616
+      - 8161:8161
+
+  sqs:
+    image: vsouza/sqs-local:latest
+    ports:
+      - 9324:9324

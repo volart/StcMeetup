@@ -31,8 +31,8 @@ public class Main {
   public static void main(String[] args) {
 
     BrokerConfig brokerConfig;
-//    brokerConfig = getActiveMqConfig();
-    brokerConfig = getSqsConfig();
+    brokerConfig = getActiveMqConfig();
+//    brokerConfig = getSqsConfig();
 
     Consumer consumer = CONSUMER_FACTORY.createConsumer(brokerConfig);
 

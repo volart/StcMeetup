@@ -1,5 +1,5 @@
 #
-# External components for running Portico locally
+# Running mq locally
 #
 version: '3.1'
 
